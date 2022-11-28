@@ -1,7 +1,7 @@
 '''
 This python scirpt is adapted from https://bioinformatics.nl/~kauts001/ltr/bigslice/paper_data/scripts/ and used for parsing BiGSLiCE output sql file.
 
-Usage: python antismash_parser.py --input antismash.json -T mibig_smiliarity_threshold
+Usage: python bigslice_parser.py data.db
 Output: an csv file containing bigslice_class, bigslice_subclass, gcf, gcf_value, on_contig_edge, len_nt information
 
 If you find our script useful? Please cite!
